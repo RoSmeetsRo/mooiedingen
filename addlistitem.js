@@ -5,7 +5,7 @@ function addLiElement(step, text){
     var ul = document.getElementsByClassName('recipe'); // hier halen we de class recipe op en deze declareren we
     var li = document.createElement('li');              // declaratie create element van list item in unordered list
     li.classList.add(step);                             // met deze regel adden we een class per step/list item (step3, 4, 5 enz.)
-    li.innerHTML = text;                                // hier voeren we tekst in voor het list item
+    li.innerHTML = text;                                // hier geven we aan dat het text is
     ul[0].appendChild(li);                              // hier plaatsen we het item onderaan de unordered list
 }
     // nu we de functie hebben gemaakt moeten we nog wel listitems toevoegen naar onze eigen wens
