@@ -18,9 +18,3 @@ addLiElement('step6', 'Laat de balletjes een uur koken');
 addLiElement('step7', 'Doe de soepgroente erbij');
 addLiElement('step8', 'Laat 15 minuten koken');
 addLiElement('step9', 'En serveren maar!');
-
-
-
-
-
-
